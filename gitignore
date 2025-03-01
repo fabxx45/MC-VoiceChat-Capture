@@ -13,8 +13,12 @@ target/
 # Ignore dependency JARs
 *.jar
 
-# Ignore Vosk model directory (if it contains large files)
-vosk-model-en-us-0.22/
+# Ignore Vosk model and library
+vosk-*/
+vosk*.jar
+
+# Ignore Minecraft voice chat mod
+voicechat-forge-*/
 
 # Ignore local environment files
 .env
