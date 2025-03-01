@@ -1,0 +1,45 @@
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore build outputs
+out/
+bin/
+build/
+target/
+
+# Ignore dependency JARs
+*.jar
+
+# Ignore Vosk model directory (if it contains large files)
+vosk-model-en-us-0.22/
+
+# Ignore local environment files
+.env
+*.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore Git-related files
+.gitattributes
+.git/
+
+# Ignore Gradle-specific files (if applicable)
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Ignore Maven-specific files (if applicable)
+.mvn/
+mvnw
+mvnw.cmd
