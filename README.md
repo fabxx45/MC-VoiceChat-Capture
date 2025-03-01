@@ -9,6 +9,8 @@ Steps:
 
 add all to the directory of the main folder
 
-What you also need to do is to add the 3 things (all except for vosk-model) you downloaded to the libaries and activiate the modules afterwards
+What you also need to do is to add the 3 things (all except for vosk-model) you downloaded to the libaries and activiate the modules afterwards.
 
-Then if you run it should work only problem is that it doesn't except the current audio file but that is not important because you will change it later
+Then if you run it should work only problem is that it doesn't except the current audio file but that is not important because you will change it later.
+
+Need to set the folder direction for vosk jar file current templet is for windows only.
